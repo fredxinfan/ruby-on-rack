@@ -13,8 +13,5 @@
       "description": "Rack environment.",
       "value": "production"
     }
-  },
-  "addons": [
-    "mandrill"
-  ]
+  }
 }
