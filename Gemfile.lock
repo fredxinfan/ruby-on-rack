@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    httparty (0.13.5)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.3)
+    multi_xml (0.5.5)
+    mustache (1.0.2)
+    passenger (5.0.15)
+      rack
+      rake (>= 0.8.1)
+    rack (1.6.4)
+    rake (10.4.2)
+    xmandrill (0.0.2)
+      httparty
+      json
+      mustache
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  passenger
+  rack
+  xmandrill
+
+BUNDLED WITH
+   1.10.6

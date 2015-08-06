@@ -1,0 +1,20 @@
+{
+  "name": "Ruby on Rack Sample App",
+  "description": "This app demonstrates how to hosting static pages with email sending form.",
+  "keywords": [
+    "ruby",
+    "rack",
+    "email"
+  ],
+  "repository": "https://github.com/fredxinfan/ruby-on-rack",
+  "success_url": "/",
+  "env": {
+    "RACK_ENV": {
+      "description": "Rack environment.",
+      "value": "production"
+    }
+  },
+  "addons": [
+    "mandrill"
+  ]
+}

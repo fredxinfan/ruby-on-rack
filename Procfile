@@ -1,0 +1,1 @@
+web: bundle exec passenger start -e $RACK_ENV -p $PORT
